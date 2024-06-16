@@ -1,0 +1,4 @@
+.SchedulePlanTableTab {
+  display: flex;
+  flex-direction: column;
+}

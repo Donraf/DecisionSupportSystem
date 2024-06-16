@@ -1,0 +1,11 @@
+.ScenarioPage {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 16px 0px 16px;
+}
+
+.TaskCards {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}

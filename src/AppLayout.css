@@ -1,0 +1,28 @@
+.AppLayout {
+  height: fit-content;
+  display: grid;
+  grid-template-areas:
+    "sidebar header header header"
+    "sidebar dashboard dashboard dashboard"
+    "sidebar dashboard dashboard dashboard";
+  grid-template-columns: 250px 1fr;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.AddDiagramButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 10px;
+  height: 80%;
+}
+
+.Outlet {
+  grid-area: dashboard;
+}

@@ -1,0 +1,69 @@
+.TaskCard {
+  border: 3px solid #e0e0e0;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.TaskCard .CardHeader {
+  font-size: 21px;
+  padding: 16px 16px 16px 16px;
+  margin: 0;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-weight: bold;
+  background-color: #414563;
+  border-radius: 20px 20px 0px 0px;
+  color: white;
+}
+
+.TaskCard .Property {
+  padding: 8px 8px 8px 8px;
+  font-size: large;
+  font-weight: bold;
+  color: #9f9f9f;
+}
+
+.TaskCard .Property .Value {
+  font-size: large;
+  color: #393d40;
+}
+
+.TaskCard .CardHeader .IconButton {
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+}
+
+#activeTaskCard {
+  order: -1;
+  flex-basis: 60%;
+  margin: 0 20% 0 20%;
+  padding: 0 0 70px 0;
+}
+
+.ScenarioChartsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 8px 8px 8px 8px;
+}
+
+.ScenarioChartsContainer .ForecastHeader {
+  font-size: 21px;
+  padding: 16px 16px 16px 16px;
+  margin: 0 0 20px 0;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  background-color: #414563;
+  border-radius: 20px 20px 20px 20px;
+  color: white;
+}
+
+.Divider {
+  border-top: 3px solid #e0e0e0;
+  width: 100%;
+}

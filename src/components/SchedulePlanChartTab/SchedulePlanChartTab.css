@@ -1,0 +1,12 @@
+.SelectName {
+  margin: 0.5rem 0rem 0.5rem 0rem;
+  font-size: large;
+  font-weight: bold;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.SchedulePlanChartTab {
+  display: flex;
+  flex-direction: column;
+}

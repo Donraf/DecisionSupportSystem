@@ -1,0 +1,14 @@
+.grid-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.AddDiagramButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 10px;
+  height: 80%;
+}

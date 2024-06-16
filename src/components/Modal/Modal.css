@@ -1,0 +1,32 @@
+.Modal {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+}
+
+.SelectName {
+  margin: 0.5rem 0rem 0.5rem 0rem;
+  font-size: large;
+  font-weight: bold;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+select {
+  padding: 1rem 1rem 1rem 1rem;
+  border-radius: 10px;
+  width: 100%;
+  text-align: start;
+}
+
+option {
+  padding: 1rem 1rem 1rem 1rem;
+  border-radius: 10px;
+}
+
+dialog {
+  border-color: #ccc;
+  border-width: 0.15rem;
+  padding: 16px 16px 16px 16px;
+  border-radius: 16px;
+}
